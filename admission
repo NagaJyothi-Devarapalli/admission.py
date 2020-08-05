@@ -1,0 +1,29 @@
+class student:
+
+ def __init__ (self):
+  self.adno=adno
+  self.name=name
+  self.m = [0,0,0,0,0]
+  self.m[0]=0
+  self.m[1]=0
+  self.m[2]=0
+  self.m[3]=0
+  self.m[4]=0
+ def inp(self):
+  print ( "Enter the details:\n")
+  self.appno=input("Enter the application number   :")
+  self.name=raw_input("Enter the name                 :")
+  print( "\nEnter the mark for  \n")
+  self.m[0]=input("English         : ")
+  self.m[1]=input("Mathematics     : ")
+  self.m[2]=input("chemistry       : ")
+  self.m[3]=input("Physics         : ")
+  self.m[4]=input("computer science: ")
+ def out(self):
+  print ( "\nApplication number :%d\nName :%s\n"  %(self.appno,self.name))
+  print ("\nMarks : \n\n")
+  print ("English        :  ",self.m[0])
+  print ("Mathematics    :  ",self.m[1])
+  print ("Science        :  ",self.m[2])
+  print ("Social Science :  ",self.m[3])
+  print ("Second Language:  ",self.m[4])
